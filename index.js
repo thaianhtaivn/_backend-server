@@ -31,5 +31,5 @@ app.use("/api", profileRoutes.routes);
 
 const PORT = process.env.PORT || 3005;
 app.listen(PORT, () => {
-  console.log(`Service endpoint= http://34.126.166.108:${PORT}`);
+  console.log(`Service endpoint= http://0.0.0.0:${PORT}`);
 });
